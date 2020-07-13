@@ -20,6 +20,7 @@ export default new Vuex.Store({
     setInputValue(state, val) {
       state.inputValue = val
     },
+    // 添加元素
     addItem(state) {
       const obj = {
         id: state.nextId,
